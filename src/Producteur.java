@@ -1,5 +1,5 @@
 public class Producteur extends Employe{
-    private double nbUnitesProduites
+    private double nbUnitesProduites;
 
     public Producteur(String Nom, String Prenom, int age, String dateEntreeService, double nbUnitesProduites) {
         super(Nom, Prenom, age, dateEntreeService);
